@@ -1,0 +1,309 @@
+@media (min-width: 992px) {#app {
+    margin-bottom: 20px;
+}
+
+/* header */
+
+/* banner */
+#BannerStore .bg-banner span{
+    font-weight: bold;
+}
+
+#BannerStore .bg-banner {
+    font-weight: lighter;
+}
+
+#BannerStore .bg-banner{
+    /* width: 100%; */
+    height: auto;
+    background: linear-gradient(270deg, #C83838 1.94%, #FFB11E 100%);
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+}
+
+#BannerStore .bg-banner .col-lg-5{
+    padding-top: 150px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+#BannerStore .bg-banner h1{
+    font-size: 35px;
+}
+
+/* Kategori Plihan */
+#KategoriPilihan .col h1{
+    font-size: 24px;
+}
+
+#KategoriPilihan .kategori-pilihan .col-lg-2 .btn{
+border-radius: 50px;
+border-color: orange;
+color: orange   ;
+}
+
+#KategoriPilihan .kategori-pilihan .col-lg-2 .btn:hover{
+    background-color: orange;
+    color: white;
+}
+#KategoriPilihan .kategori-pilihan span{
+    font-weight: bold;
+}
+
+/* BestSeller */
+#BestSeller .col-lg-6 h1 {
+    font-size: 24px;
+}
+
+#BestSeller .best-seller .col-lg-6{
+    font-size: 24px;
+}
+
+#BestSeller .best-seller .col-lg-6 span{
+    font-weight: bold;
+}
+
+
+/* #BestSeller .best-seller .col-lg-6 span{
+    font-weight: bold;
+} */
+
+#BestSeller .card .card-body h5{
+    font-size: 15px;
+}
+
+#BestSeller .card .card-body h5.card-title span{
+font-weight: bold;
+}
+
+#BestSeller .card .btn {
+    height: 36px;
+    width: 121px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #6AD675;
+    color: white
+    
+    ;
+}
+
+#BestSeller .best-seller .card-best .col-lg-2 .btn:hover{
+    background-color: white;
+    color: #6AD675;
+}
+
+#BestSeller .card .card-img-top,
+#PromoStore .card .card-img-top{
+    background: #EBEAE7;
+}
+
+
+/* PromoStore */
+#PromoStore .col-lg-6 h1{
+    font-size: 24px;
+}
+
+#PromoStore .promo-store .col-lg-6 span {
+    font-weight: bold;
+}
+
+#PromoStore .promo-store .col-lg-6 span {
+    font-weight: bold;
+}
+
+#PromoStore .card .card-body h5{
+    font-size: 15px;
+}
+
+#PromoStore .card .card-body h5.card-title span{
+    font-weight: bold;
+}
+
+/* #PromoStore .promo-store .card-promo img{
+    width: 100%;
+    height: auto;
+} */
+
+#PromoStore .card .btn {
+    height: 36px;
+    width: 121px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #6AD675;
+    color: white;
+}
+
+#PromoStore .promo-store .card-promo .col-lg-4 .btn:hover{
+    background-color: white;
+    color: #6AD675;
+}
+
+/* Iklan Store */
+
+#IklanStore .bg-iklan{
+    width: 100%;
+    height: auto;
+    background: #F8A70F;
+    border-radius: 30px 30px 0px 0px;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+    color: white;
+}
+
+#IklanStore .desc h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#IklanStore .desc h5{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+
+#IklanStore .bg-iklan .desc {
+    margin-top: 100px;
+}
+
+/* Footer Store */
+#footer-store .bg-space{
+    background: #CB980C;
+    width: 100%;
+    height: auto;
+
+}
+
+#footer-store .logo{
+    margin: 30px;
+}
+
+#footer-store .bg-footer{
+    background: #F8A70F;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    color: white;
+    padding: 25px;
+}
+
+#footer-store .bg-footer h1{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#footer-store .bg-footer h6{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#footer-store .socmed {
+    width: 60px;
+    height: 60px;
+}
+
+/* product details */
+
+#ProductDetails .breadcrumb{
+    background: white
+    ;
+}
+
+/* detail store */
+#product-details h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#product-details h1 span {
+    font-weight: normal;
+}
+
+#product-details .card-body{
+    background: #F8F5ED;
+}
+
+/* #product-details .btn {
+    background: #F8A70F;
+    border: #F8A70F;
+}
+
+#product-details .btn:hover{
+    background: #F8F5ED;
+    color: #F8A70F;
+} */
+
+/* keranjang store */
+/* #KeranjangStore .table span */
+
+#KeranjangStore .table th{
+    text-align: center;
+    font-size: 20px;
+}
+
+#KeranjangStore .table td{
+    font-size: 18px;
+}
+
+#KeranjangStore .list-total h1{
+    font-size: 18px;
+}
+
+#KeranjangStore h1 span{
+    float: right;
+}
+
+#KeranjangStore .list-total{
+    /* margin-left: 50px; */
+    background: #CDFDF7;
+    padding: 10px;
+}
+
+#KeranjangStore hr{
+    height: 2px;
+    background-color: white;
+}
+
+#KeranjangStore .btn{
+    /* margin-left: 50px; */
+    background: #F8A70F;
+    border: none;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+#KeranjangStore .btn:hover{
+    background: #db9003;
+}
+
+/* succes store */
+
+#success-store h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+#success-store h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #F8A70F;
+    line-height: 29px;
+}
+
+#success-store .btn{
+    background: #F8A70F;
+    border: none;
+}
+
+#success-store .btn:hover{
+    background: #db9003;
+}
+
+#register-store .card{
+    background: #727272;
+    color: aliceblue;
+}
+}
